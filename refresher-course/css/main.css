@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body {
+    font-family: 'Inter', 'sans-serif';
+    padding: 10px;
+}
+h1 {
+    text-transform: capitalize;
+    line-height: 10px;
+}
+nav {
+    padding: 5px 10px 5px 10px; /* T R B L */
+    margin: 5px 5px; /* Y X */
+    /* there's also: (margin-padding)-(top/bottom/left/right) */
+    border-radius: 5%;
+    background-color: #E1ECF0;
+    color: black;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline; /* other common values: block (default), flex (flexbox), grid (CSS Grid) */
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:active {
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    color: black;
+    font-style: italic;
+}
+
+/* a:visited {} */
+
+blockquote {
+    border-left: solid 5px teal;
+    padding-left: 5px;
+}

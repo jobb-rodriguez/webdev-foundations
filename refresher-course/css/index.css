@@ -1,0 +1,10 @@
+#first_paragraph {
+    font-size: 16px;
+}
+#first_paragraph::first-letter {
+    font-size: 3em;
+}
+
+article h2 {
+    margin-bottom: 5px;
+}
