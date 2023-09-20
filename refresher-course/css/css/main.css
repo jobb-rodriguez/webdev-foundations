@@ -3,15 +3,11 @@ body {
     font-family: 'Inter', 'sans-serif';
     padding: 10px;
 }
-h1 {
-    text-transform: capitalize;
-    line-height: 10px;
-}
 nav {
-    padding: 5px 10px 5px 10px; /* T R B L */
-    margin: 5px 5px; /* Y X */
+    padding: 5px 10px 20px 10px; /* T R B L */
+    margin: 5px 0px; /* Y X */
     /* there's also: (margin-padding)-(top/bottom/left/right) */
-    border-radius: 5%;
+    border-radius: 10px;
     background-color: #E1ECF0;
     color: black;
 }
