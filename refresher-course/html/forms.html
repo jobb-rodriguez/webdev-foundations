@@ -10,6 +10,39 @@
         <h1>Friend Application Form</h1>
     </header>
     <main>
+        <!-- Part 3: Forms -->
+        <section>
+            <form>
+                <label for="firstname">First Name</label><br />
+                <input type="text" name="firstname" value="" placeholder="John" required /><br />
+                <label for="lastname">Last Name</label><br />
+                <input type="text" name="lastname" value="" placeholder="Howard" required /><br />
+                <label for="sex">Sex</label><br />
+                <input type="radio" name="sex" value="male" placeholder="" /><label for="male">Male</label>
+                <input type="radio" name="sex" value="female" placeholder="" /><label for="female">Female</label><br />
+                <label for="email">Email</label><br />
+                <input type="email" name="email" value="" placeholder="" /><br />
+                <label for="password">Password</label><br />
+                <input type="password" name="password" value="" maxlength="10" required /><br />
+                <label for="movie_genres">Which movie genres do you like?</label><br />
+                <input type="checkbox" name="movie_genres" value="Romance" placeholder="" /><label for="romance">Romance</label>
+                <input type="checkbox" name="movie_genres" value="Mystery" placeholder="" /><label for="mystery">Mystery</label><br />
+                <select>
+                    <option value="">Favorite Color</option>
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="indigo">Indigo</option>
+                    <option value="violet">Violet</option>
+                </select><br />
+                <label for="description">Write a short description about yourself</label><br />
+                <textarea name="description" cols="50" rows="5"></textarea><br />
+                <input type="reset" value="Reset">
+                <input type="submit" value="Apply as Friend">
+            </form>
+        </section>
         <!-- Part 2: Headers and Paragraph Tags -->
         <aside>
             <h2>Headers and Paragraph Tags</h2>
