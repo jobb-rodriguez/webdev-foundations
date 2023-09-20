@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refresher Course: HTML Body</title>
+</head>
+<body>
+    <header>
+        <h1>Friend Application Form</h1>
+    </header>
+    <main>
+        <!-- Part 3: Forms -->
+        <section>
+            <form>
+                <label for="firstname">First Name</label><br />
+                <input type="text" name="firstname" value="" placeholder="John" required /><br />
+                <label for="lastname">Last Name</label><br />
+                <input type="text" name="lastname" value="" placeholder="Howard" required /><br />
+                <label for="sex">Sex</label><br />
+                <input type="radio" name="sex" value="male" placeholder="" /><label for="male">Male</label>
+                <input type="radio" name="sex" value="female" placeholder="" /><label for="female">Female</label><br />
+                <label for="email">Email</label><br />
+                <input type="email" name="email" value="" placeholder="" /><br />
+                <label for="password">Password</label><br />
+                <input type="password" name="password" value="" maxlength="10" required /><br />
+                <label for="movie_genres">Which movie genres do you like?</label><br />
+                <input type="checkbox" name="movie_genres" value="Romance" placeholder="" /><label for="romance">Romance</label>
+                <input type="checkbox" name="movie_genres" value="Mystery" placeholder="" /><label for="mystery">Mystery</label><br />
+                <select>
+                    <option value="">Favorite Color</option>
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="indigo">Indigo</option>
+                    <option value="violet">Violet</option>
+                </select><br />
+                <label for="description">Write a short description about yourself</label><br />
+                <textarea name="description" cols="50" rows="5"></textarea><br />
+                <input type="reset" value="Reset">
+                <input type="submit" value="Apply as Friend">
+            </form>
+        </section>
+        <!-- Part 2: Headers and Paragraph Tags -->
+        <aside>
+            <h2>Headers and Paragraph Tags</h2>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <p>Paragraph</p>
+        </aside>
+    </main>
+    <footer>
+        <nav>
+            <h3>Navigation Links</h3>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./forms.html">Forms</a></li>
+            </ul>
+            <h3>Having fun? Show support by following me on my socials.</h3>
+            <ul>
+                <li><a href="https://github.com/jobb-rodriguez" target="_blank">Github (jobb-rodriguez)</a></li>
+                <li><a href="https://www.kaggle.com/jobbrodriguez" target="_blank">Kaggle (jobbrodriguez)</a></li>
+                <li><a href="https://www.linkedin.com/in/jobb-rodriguez-009a94226/" target="_blank">LinkedIn (Jobb Rodriguez)</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
