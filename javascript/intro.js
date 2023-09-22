@@ -95,12 +95,88 @@ while(enemyHP !== 0) {
 
 // Functions
 console.log("---FUNCTIONS---");
+function addTwoNumbers(first, second=3) {
+    return first + second;
+}
+const multiplyTwoNumbers = (first, second=2) => first * second;
+
+console.log("2 + 3 =", addTwoNumbers(2));
+console.log("2 + 10 =", addTwoNumbers(2, 10));
+console.log("2 * 2 =", multiplyTwoNumbers(2));
+console.log("2 * 10 =", multiplyTwoNumbers(2, 10));
 
 // Array
 console.log("---ARRAY---");
+const quizScores = [5, 5, 5, 3, 4];
+
+console.log(`${quizScores[0]} is the first score.`);
+console.log(`${quizScores[quizScores.length - 1]} is the last score.`);
+
+function displayScoresForLoop(scores) {
+    console.log("Regular For Loop");
+    for (let counter = 0; counter < scores.length; counter++)console.log(`${counter}: ${scores[counter]}/5`);
+}
+function displayScoresForOf(scores) {
+    console.log("For Of");
+    for (score of scores) console.log(`${score}/5`);
+}
+
+function displayScoresForEach(scores) {
+    console.log("For Each");
+    scores.forEach((score, index) => {
+        let mistake = Math.abs(score - 5)
+        console.log(`${index}: ${score}/5 -> ${mistake} mistakes`);
+    })
+}
+
+displayScoresForEach(quizScores);
+displayScoresForOf(quizScores);
+displayScoresForEach(quizScores);
+
+// Pop
+console.log("Methods");
+quizScores.pop()
+console.log(`3 is located at index ${quizScores.indexOf(3)}`);
+console.log(`4 is located at index ${quizScores.indexOf(4)}`);
+displayScoresForEach(quizScores);
+
+// Concat
+console.log(quizScores.concat([2, 3]))
+
+// Sort
+quizScores.sort()
+displayScoresForEach(quizScores);
+
+// Splice(start, deletecount, items)
+quizScores.splice(quizScores.indexOf(3), 1, 4, 3, 2, 3);
+displayScoresForEach(quizScores);
+
+// Filter
+const scoresLessThanFour = quizScores.filter((score) => score < 4); 
+displayScoresForEach(scoresLessThanFour);
+
+// Map
+const scoresPenaltyAdded = quizScores.map((score) => score - 1);
+displayScoresForEach(scoresPenaltyAdded);
 
 // Dictionary
 console.log("---DICTIONARY---");
+const student = {
+    name: "Luis Antonio",
+    age: 19,
+    isEnrolled: true,
+    subjects: ["Introduction to Programming", "Discrete Mathematics"],
+    chant: () => console.log("Python is my favorite language!")
+}
 
-// Tips
-console.log("---TIPS---");
+for (attribute in student) {
+    console.log(student[attribute]);
+}
+student.chant();
+
+for (const [key, value] of Object.entries(student)) {
+    console.log(`${key}: ${value}`);
+}
+
+console.log('Keys: ', Object.keys(student));
+console.log('Values: ', Object.values(student));
