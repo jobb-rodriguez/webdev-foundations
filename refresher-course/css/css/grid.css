@@ -1,0 +1,21 @@
+section {
+    display: grid;
+    grid-gap: 40px;
+    /* grid-template-columns: 1fr; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-columns: 3fr 1fr;
+}
+
+.cat {
+    text-align: center;
+    padding: 25px;
+}
+
+.blue {
+    background-color: aquamarine;
+}
+
+.yellow {
+    background-color: antiquewhite;
+}
