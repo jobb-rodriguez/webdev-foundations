@@ -3,19 +3,27 @@ section {
     grid-gap: 40px;
     /* grid-template-columns: 1fr; */
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: 1fr 2fr auto; */
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(2, 1fr 2fr);
+    /* justify-items: end; */
 }
 
 .cat {
     text-align: center;
-    padding: 25px;
+    padding: 5%;
 }
 
 .blue {
     background-color: aquamarine;
+    /* grid-column: 1/4; */
 }
 
 .yellow {
     background-color: antiquewhite;
+}
+
+img {
+    width: auto;
+    height: 50%;
 }
