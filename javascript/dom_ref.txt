@@ -1,0 +1,23 @@
+DOM Selectors
+--------------
+getElementByTagName
+getElementsByClassName
+getElementById
+
+querySelector
+querySelectorAll
+
+getAttribute
+setAttribute
+
+Changing Styles
+--------------
+style.{property}
+
+className
+classList
+
+Events
+--------------
+Event List: https://developer.mozilla.org/en-US/docs/Web/Events
+Character Codes: https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
