@@ -11,7 +11,7 @@
 1. One of the apprentices should Create a GitHub Repository named webdev-appre-projects.
 2. Write an appropriate README.md.
 3. Invite your fellow apprentices and your webmasters.
- > The apprentices and the webmasters should clone the repository in their selected devices.
+    > The apprentices and the webmasters should clone the repository in their selected devices.
 4. The repository owner should create a folder 00-git
 5. He/She should create a txt file named “00-git/[Lastname].txt” with the text “Hi, I’m [firstname]”.
 6. The remaining apprentices should do the following:
