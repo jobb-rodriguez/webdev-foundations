@@ -15,10 +15,10 @@
 4. The repository owner should create a folder 00-git
 5. He/She should create a txt file named “00-git/[Lastname].txt” with the text “Hi, I’m [firstname]”.
 6. The remaining apprentices should do the following:
- 6.1. Following trunk-based development, create a new repository.
- 6.2. Create a txt file named “00-git/[Lastname].txt” with the text “Hi, I’m [firstname]”.
- 6.3. The apprentice should create a Pull Request merging the created branch to the main branch.
- 6.4. The repository owner should process the Pull Request accordingly.
+    1. Following trunk-based development, create a new repository.
+    2. Create a txt file named “00-git/[Lastname].txt” with the text “Hi, I’m [firstname]”.
+    3. The apprentice should create a Pull Request merging the created branch to the main branch.
+    4. The repository owner should process the Pull Request accordingly.
 7. Once all apprentices have a file in the repository, contact the webmaster for checking.
 
 > [!NOTE]
