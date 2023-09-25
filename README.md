@@ -25,12 +25,52 @@
 > Ensure the commit messages are correct.
 
 # Debugging Project
+1. Create a folder in the repository named 01-debugging
+2. Per apprentice, create a txt file named “[Lastname.txt]” inside the folder.
+3. The file should answer this question: **Which debugging technique do you like to use? Why?**
+4. Once all apprentices have a file in the repository, contact the webmaster for checking.
 
 # Documentation Project
+1. Create a folder in the repository named 02-documentation
+2. Per apprentice, create a txt file named “[Lastname.txt]” inside the folder.
+3. The file should contain the links for documentation of:
+    - Frontend: HTML, CSS, Javascript, TypeScript, Vue 3, Nuxt 3, and Quasar
+    - Backend: Send the links for documentation of Javascript, TypeScript, Node, MongoDB, Mongoose, and Express
+4. Once all apprentices have a file in the repository, contact the webmaster for checking.
 
-# Javascript Backend Project
+# HTML, CSS Project
+1. Create a folder in the repository fe0-refresher
+2. Create a folder with your lastname (fe0-refresher/[lastname]). 
+3. Recreate the entrance exam exercise.
 
 # Javascript Frontend Project
+1. Create a folder fe1-javascript.
+2. Remember your project in HTML and CSS. **Add Javascript and use functions.**
+
+
+# Javascript Backend Project
+1. Create a folder be1-javascript.
+2. Create a main.js file inside the folder.
+3. Create a class Entity with 
+    1. The following variables
+        1. Name: Name of your choice
+        2. Date Created: Current Date
+    2. The variables are necessary for the constructor.
+    3. The following methods
+        1. Walk - displays “Name is walking”
+        2. Birthdate - displays “Name was created on Date”
+4. Create a class Robot inheriting Entity
+    1. The legs variable returns 2.
+    2. Update the walk method where it displays “Name is walking with <legs> legs--brrrrt”
+5. Create a class Cat inheriting Entity
+    1. The legs variable returns 4.
+    2. Update the walk method where it displays “Name is walking with <legs> legs--meow”
+    3. The Growl method returns “Purrrr~^^”.
+6. Create 1 robot and 1 cat.
+    1. Make the robot and cat walk.
+    2. Show their birthdates.
+    3. Make the cat purr.
+
 
 > [!IMPORTANT]
 > Access the [apprenticeship projects repository](https://github.com/jobb-rodriguez/webdev-appre-projects) only after attempting the projects.
