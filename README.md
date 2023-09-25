@@ -7,7 +7,8 @@
 5. Object-oriented Programming (OOP) (Markdown | Video Playlist)
 6. Document Object Model (DOM) (Markdown | Video Playlist)
 
-# Git Project
+# Projects
+## Git Project
 1. One of the apprentices should Create a GitHub Repository named webdev-appre-projects.
 2. Write an appropriate README.md.
 3. Invite your fellow apprentices and your webmasters.
@@ -24,13 +25,13 @@
 > [!NOTE]
 > Ensure the commit messages are correct.
 
-# Debugging Project
+## Debugging Project
 1. Create a folder in the repository named 01-debugging
 2. Per apprentice, create a txt file named “[Lastname.txt]” inside the folder.
 3. The file should answer this question: **Which debugging technique do you like to use? Why?**
 4. Once all apprentices have a file in the repository, contact the webmaster for checking.
 
-# Documentation Project
+## Documentation Project
 1. Create a folder in the repository named 02-documentation
 2. Per apprentice, create a txt file named “[Lastname.txt]” inside the folder.
 3. The file should contain the links for documentation of:
@@ -38,17 +39,17 @@
     - Backend: Send the links for documentation of Javascript, TypeScript, Node, MongoDB, Mongoose, and Express
 4. Once all apprentices have a file in the repository, contact the webmaster for checking.
 
-# HTML, CSS Project
+## HTML, CSS Project
 1. Create a folder in the repository fe0-refresher
 2. Create a folder with your lastname (fe0-refresher/[lastname]). 
 3. Recreate the entrance exam exercise.
 
-# Javascript Frontend Project
+## Javascript Frontend Project
 1. Create a folder fe1-javascript.
 2. Remember your project in HTML and CSS. **Add Javascript and use functions.**
 
 
-# Javascript Backend Project
+## Javascript Backend Project
 1. Create a folder be1-javascript.
 2. Create a main.js file inside the folder.
 3. Create a class Entity with 
