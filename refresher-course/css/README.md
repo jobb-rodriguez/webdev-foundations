@@ -11,7 +11,7 @@
         2. Hover
         3. Link
         4. Visited
-4. Canva’s Color Wheel
+4. [Canva’s Color Wheel](https://www.canva.com/colors/color-wheel/)
 5. Order: Specificity > Importance > Source Order
 6. Text
     1. text-decoration
