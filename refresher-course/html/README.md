@@ -27,7 +27,7 @@
     7. Checkbox
     8. Radio
     9. Textarea
-    10. Reset
-    11. Submit
-    12. Select
+    10. Select
+    11. Reset
+    12. Submit
 5. Developer Tools (Inspect)
