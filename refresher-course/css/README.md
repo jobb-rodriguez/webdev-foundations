@@ -24,10 +24,10 @@
     8. Google Fonts (Show link and import options)
 7. Box Model
 8. Margin > Border > Padding > Content
-One Line (T > R > B > L)
-px vs em vs rem
-em is X times the containing element.
-rem is size relative to the root element (HTML).
+    1. One Line (T > R > B > L)
+    2. px vs em vs rem
+        - em is X times the containing element.
+        - rem is size relative to the root element (HTML).
 9. [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and {Froggy Exercise](https://flexboxfroggy.com/)
 10. [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) and [Grid Cheat Sheet](https://grid.malven.co/)
 11. [@media](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
