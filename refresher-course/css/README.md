@@ -23,9 +23,9 @@
     7. font-family
     8. Google Fonts (Show link and import options)
 7. Box Model
-8. Margin > Border > Padding > Content
-    1. One Line (T > R > B > L)
-    2. px vs em vs rem
+    1. Margin > Border > Padding > Content
+    2. One Line (T > R > B > L)
+    3. px vs em vs rem
         - em is X times the containing element.
         - rem is size relative to the root element (HTML).
 9. [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and {Froggy Exercise](https://flexboxfroggy.com/)
