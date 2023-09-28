@@ -26,7 +26,7 @@ console.log(`bankAccount: ${bankAccount} is a ${typeof(bankAccount)}.`);
 // Control Flow
 console.log("---CONTROL FLOW---");
 console.log('Comparison Operators: ===, !==, >, >=, <, <=');
-console.log("Logcial Operators: &&, ||, !; and, or, not");
+console.log("Logical Operators: &&, ||, !; and, or, not");
 
 if(age < 13) console.log("Pre-teen");
 else if (age >= 13 && age <= 17) {
