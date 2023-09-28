@@ -15,7 +15,11 @@ class Student {
     }
 }
 
-// Inhertiance: extends
+/*
+Student -> CompSciStudent
+        -> BusniessStudent
+*/
+// Inheritance: extends
 class CompSciStudent extends Student {
     constructor(name, program) {
         super(name, program);
@@ -25,13 +29,27 @@ class CompSciStudent extends Student {
         console.log('My dream is to create social impact with technology!')
     }
 }
+class BusinessStudent extends Student {
+    constructor(name, program) {
+        super(name, program);
+    }
+    // Polymorphism: Method Overriding
+    shareDream() {
+        console.log('My dream is to create social impact with businesses!')
+    }
+}
 
 // Abstraction: Hides the complexity and shows only the functionality
 const luis = new Student("Luis", "English Studies");
-const angelo = new CompSciStudent("Antonio", "Information Technology");
+const luffy = new Student("Luffy", "Pirate");
+const angelo = new CompSciStudent("Angelo", "Information Technology");
+const nami = new BusinessStudent("Nami", "Navigator");
 
+console.log(luis.name);
 luis.introduce();
+luffy.introduce();
 angelo.introduce();
 
 luis.shareDream();
 angelo.shareDream();
+nami.shareDream();
