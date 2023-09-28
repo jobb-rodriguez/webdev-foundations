@@ -51,7 +51,7 @@ switch(favoriteMeal) {
 console.log(`${age < 13 ? "young" : "old?"}`);
 
 var enemyHP = 5;
-for(enemyHP; enemyHP != 0; enemyHP--){
+/* for(enemyHP; enemyHP != 0; enemyHP--){
     // current enemy HP: 1
     var response = undefined;
     alert(`You have ${enemyHP} Health Points remaining.`);
@@ -71,11 +71,11 @@ for(enemyHP; enemyHP != 0; enemyHP--){
         alert("It's good that you regained your senses.");
         break;
     }
-}
+} */
 
 /* While Variant */
-/* enemyHP = 5;
-while(enemyHP !== 0) {
+enemyHP = 5;
+/* while(enemyHP !== 0) {
     var response = undefined;
     alert(`You have ${enemyHP} Health Points remaining.`);
     if(enemyHP === 3) {
@@ -128,12 +128,12 @@ function displayScoresForOf(scores) {
 function displayScoresForEach(scores) {
     console.log("For Each");
     scores.forEach((score, index) => {
-        let mistake = Math.abs(score - 5)
+        let mistake = Math.abs(score - 5);
         console.log(`${index}: ${score}/5 -> ${mistake} mistakes`);
     })
 }
 
-displayScoresForEach(quizScores);
+displayScoresForLoop(quizScores);
 displayScoresForOf(quizScores);
 displayScoresForEach(quizScores);
 
