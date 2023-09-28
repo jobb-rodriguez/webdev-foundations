@@ -50,8 +50,9 @@ switch(favoriteMeal) {
 // Ternary Operator: Condition ? value_if_true : value_if_false
 console.log(`${age < 13 ? "young" : "old?"}`);
 
-/* var enemyHP = 5;
+var enemyHP = 5;
 for(enemyHP; enemyHP != 0; enemyHP--){
+    // current enemy HP: 1
     var response = undefined;
     alert(`You have ${enemyHP} Health Points remaining.`);
     if(enemyHP === 3) {
@@ -63,14 +64,14 @@ for(enemyHP; enemyHP != 0; enemyHP--){
             response = undefined;
             response = prompt("I don't want to do this. Have you made up your mind? (Y/N)");
         } while(response !==  "Y" && response !== "N");
-        if (response === "N") console.log("Reposte in pace");
+        if (response === "Y") alert("Reposte in pace");
     }
 
     if(response === "N") {
         alert("It's good that you regained your senses.");
         break;
     }
-}*/
+}
 
 /* While Variant */
 /* enemyHP = 5;
