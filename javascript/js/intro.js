@@ -47,6 +47,9 @@ switch(favoriteMeal) {
         console.log(`${name} is happy to eat any meal with meat.`)
 }
 
+// Ternary Operator: Condition ? value_if_true : value_if_false
+console.log(`${age < 13 ? "young" : "old?"}`);
+
 /* var enemyHP = 5;
 for(enemyHP; enemyHP != 0; enemyHP--){
     var response = undefined;
