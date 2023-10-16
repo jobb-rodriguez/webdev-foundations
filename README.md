@@ -45,13 +45,13 @@
 3. Recreate the entrance exam exercise.
 
 ## Javascript Frontend Project
-1. Create a folder fe1-javascript.
+1. Create a folder fe1-javascript/[lastname].
 2. Remember your project in HTML and CSS. **Add Javascript and use functions.**
 
 
 ## Javascript Backend Project
 1. Create a folder be1-javascript.
-2. Create a main.js file inside the folder.
+2. Create a [lastname].js file inside the folder.
 3. Create a class Entity with 
     1. The following variables
         1. Name: Name of your choice
