@@ -1,0 +1,16 @@
+# Outline
+- Data types *(discussed in basic)*
+- var vs let vs const
+- Prototypes (i.e Array.prototype)
+- Promises
+  - async/await
+  - callbacks
+  - resolve and reject
+- Classes *(discussed in basic)*
+- Errors
+- Anonymous Functions
+  - Unnamed Functions
+  - Arrow Functions
+  - Context binding
+- Currying
+- Standard Library
