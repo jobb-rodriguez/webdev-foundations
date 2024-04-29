@@ -1,0 +1,16 @@
+{
+  "name": "npm-showcase",
+  "version": "1.0.0",
+  "description": "This contains the tutorial on npm.",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node index.js",
+    "build": "nodemon index.js"
+  },
+  "keywords": [
+    "npm",
+    "tutorial"
+  ],
+  "author": "Jobb Rodriguez",
+  "license": "ISC"
+}
