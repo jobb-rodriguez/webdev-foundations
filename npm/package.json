@@ -1,16 +1,22 @@
 {
-  "name": "npm-showcase",
+  "name": "npm-guide",
   "version": "1.0.0",
-  "description": "This contains the tutorial on npm.",
+  "description": "This is a guide for using npm",
   "main": "index.js",
   "scripts": {
     "prod": "node index.js",
-    "build": "nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "npm",
-    "tutorial"
+    "guide"
   ],
   "author": "Jobb Rodriguez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
