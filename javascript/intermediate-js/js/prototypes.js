@@ -1,3 +1,5 @@
+// PROTOTYPES
+// def. Prototypes are the mechanism by which JavaScript objects inherit features from one another (MDN).
 // view values in browser's console.log
 console.log(Array.prototype);
 console.log(Object.prototype);
