@@ -1,6 +1,5 @@
 // Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 // CALLBACKS
-// resolvedPromise and rejectedPromise are callback functions
 let promise = new Promise(function(resolve, reject) {    
     // Make an asynchronous call and either resolve or reject
     if (true) {
