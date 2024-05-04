@@ -53,6 +53,15 @@ def. Packages required by your application in production.
 npm install <package-name> [--save-prod]
 ```
 
+When you install for production
+
+```bash
+npm install --production
+```
+
+> [!NOTE]
+> The devDependencies will be ignored.
+
 > [!NOTE]
 > Example is installing ```express```.
 
