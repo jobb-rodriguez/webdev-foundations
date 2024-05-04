@@ -10,4 +10,12 @@ let greetArrow = (platform) => {
     console.log("Welcome to ", platform); 
 }
   
-greet("Philippines!"); 
+greetArrow("Philippines!");
+
+function test (func_callback) {
+    setTimeout(func_callback, 3000)
+}
+
+test(() => {
+    console.log("hello!")
+})
