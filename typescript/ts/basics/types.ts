@@ -27,6 +27,7 @@ basket = ["basketball", 5];
 // Enum
 enum Size { Small = 1, Medium = 2, Large = 3};
 let sizeName: string = Size[2]; // displays Medium
+let sizeNameNum: number = Size["Small"]; // displays 1
 
 enum Section { News = "News", VoxAteneo = "Vox Ateneo"};
 let section: string = Section["VoxAteneo"];
