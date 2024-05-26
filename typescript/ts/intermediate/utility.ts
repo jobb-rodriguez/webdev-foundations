@@ -1,5 +1,5 @@
 // Awaited<Type> - unwrap Promises
-type A = Awaited<Promise<string>>; // type A = string
+type S = Awaited<Promise<string>>; // type S = string
  
 type B = Awaited<Promise<Promise<number>>>; // type B = number
  
@@ -25,9 +25,54 @@ const todo2 = updateTodo(todo1, {
 });
 
   
-// Pick<Type, Keys>
+// Pick<Type, Keys> - Constructs a type by picking the set of properties Keys (string literal or union of string literals) from Type.
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+ 
+type TodoPreview = Pick<Todo, "title" | "completed">;
+ 
+const todo: TodoPreview = {
+  title: "Clean room",
+  completed: false,
+};
+ 
+todo;
+ 
+// const todo: TodoPreview
 
-// Omit<Type, Keys>
+// Omit<Type, Keys> - Constructs a type by picking all properties from Type and then removing Keys (string literal or union of string literals). The opposite of Pick.
+interface TodoOmit {
+  title: string;
+  description: string;
+  completed: boolean;
+  createdAt: number;
+}
+ 
+type TodoPreviewOmit = Omit<TodoOmit, "description">;
+ 
+const todoOmit: TodoPreviewOmit = {
+  title: "Clean room",
+  completed: false,
+  createdAt: 1615544252770,
+};
+ 
+todoOmit;
+ 
+// const todo: TodoPreview
+ 
+type TodoInfo = Omit<TodoOmit, "completed" | "createdAt">;
+ 
+const todoInfo: TodoInfo = {
+  title: "Pick up kids",
+  description: "Kindergarten closes at 5pm",
+};
+ 
+todoInfo;
+   
+// const todoInfo: TodoInfo
 
 // Required<Type> - set to required
 interface Props {
@@ -69,7 +114,7 @@ type T6 = ReturnType<never>;
 type T7 = ReturnType<string>;
 // Type 'string' does not satisfy the constraint '(...args: any) => any'.
      
-type T7 = any
+// type T7 = any
 type T8 = ReturnType<Function>;
 /* Type 'Function' does not satisfy the constraint '(...args: any) => any'.
   Type 'Function' provides no match for the signature '(...args: any): any'.
