@@ -1,0 +1,27 @@
+{
+  "name": "node-lessons",
+  "version": "1.0.0",
+  "description": "Node Foundational Lessons",
+  "main": "./out/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "prod": "node --experimental-specifier-resolution=node ./out/server.js",
+    "predevt": "rimraf out && npm run build",
+    "devt": "concurrently \"npx tsc -w\" \"npx nodemon --experimental-specifier-resolution=node\""
+  },
+  "keywords": [
+    "node",
+    "foundation"
+  ],
+  "author": "Jobb Rodriguez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.1",
+    "rimraf": "^5.0.7",
+    "typescript": "^5.4.5"
+  }
+}
