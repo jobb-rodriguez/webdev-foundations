@@ -4,6 +4,10 @@
     </div>
 </template>
 <script setup lang="ts">
+definePageMeta({
+    layout: "private",
+});
+
 const router = useRouter();
 
 const currentTitle = router.currentRoute._value.params.title;
