@@ -1,5 +1,5 @@
 # Nuxt
-- Installation (TS with Quasar)
+- Installation (TS)
 - Rendering Modes
 - Layouts
 - Components
