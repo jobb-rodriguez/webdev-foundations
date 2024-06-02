@@ -7,6 +7,7 @@
     <div :class="classObject">
       <p>Sleeping whole day is satisfying</p>
     </div>
+    <!-- <div :class="ourClasses"> -->
     <div :class="[activeClass, successClass]">
       <blockquote>
         A far off memory like a scattered dream. A scattered dream like a far off memory. I want to
@@ -32,6 +33,7 @@ const classObject = computed(() => ({
 // Binding to Arrays
 const activeClass: Ref<string> = ref('active')
 const successClass: Ref<string> = ref('text-success')
+const ourClasses: Ref<Array<string>> = ref(['active', 'text-success'])
 
 // Styles
 const activeColor: Ref<string> = ref('hsla(160, 100%, 37%, 1)')
